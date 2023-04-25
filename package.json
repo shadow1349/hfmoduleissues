@@ -1,0 +1,18 @@
+{
+  "name": "hfmodulenotfound",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^2.1.2"
+  }
+}
